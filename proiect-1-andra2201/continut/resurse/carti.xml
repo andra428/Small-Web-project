@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+<!DOCTYPE persoane [
+<!ELEMENT persoane (persoana+)>
+<!ELEMENT persoana (nume, prenume, varsta, CV,strada)>
+<!ATTLIST persoana id CDATA #REQUIRED>
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT prenume (#PCDATA)>
+<!ELEMENT varsta (#PCDATA)>
+<!ELEMENT strada (numar, localitate, judet, tara)>
+<!ELEMENT numar (#PCDATA)>
+<!ELEMENT localitate (#PCDATA)>
+<!ELEMENT judet (#PCDATA)>
+<!ELEMENT tara (#PCDATA)>
+<!ELEMENT CV (liceu,facultate)>
+<!ELEMENT liceu (#PCDATA)>
+<!ELEMENT facultate (#PCDATA)>]>
+--><!--
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <CV>
+            <liceu>Cantemir</liceu>
+            <facultate>Arhitectura</facultate>
+        </CV>
+        <strada>
+            <numar>21</numar>
+            <localitate>Erbiceni</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </strada>
+    </persoana>
+
+    <persoana id="2">
+        <nume>Lupu</nume>
+        <prenume>Andra</prenume>
+        <varsta>21</varsta>
+        <CV>
+            <liceu>Moisil</liceu>
+            <facultate>AC</facultate>
+        </CV>
+        <strada>
+        <numar>29</numar>
+        <localitate>Totoesti</localitate>
+        <judet>Iasi</judet>
+        <tara>Romania</tara>
+        </strada>
+    </persoana>
+
+    <persoana id="3">
+        <nume>Cojocaru</nume>
+        <prenume>Geo</prenume>
+        <varsta>20</varsta>
+        <CV>
+            <liceu>Moisil</liceu>
+            <facultate>AC</facultate>
+        </CV>
+        <strada>
+        <numar>33</numar>
+        <localitate>Buhaiesti</localitate>
+        <judet>Vaslui</judet>
+        <tara>Romania</tara>
+        </strada>
+    </persoana>
+
+    <persoana id="4">
+        <nume>Martin</nume>
+        <prenume>Maria</prenume>
+        <varsta>22</varsta>
+        <CV>
+            <liceu>Miron</liceu>
+            <facultate>AC</facultate>
+        </CV>
+        <strada>
+        <numar>39</numar>
+        <localitate>Pascani</localitate>
+        <judet>Iasi</judet>
+        <tara>Romania</tara>
+        </strada>
+    </persoana>
+
+</persoane>
+-->
+<carti>
+    <book id="1">
+        <autor>George Orwell</autor>
+        <nume>Animal Farm </nume>
+        <an_publicare>1945</an_publicare>
+        <gen>Fabulă</gen>
+        <rating value="2">
+            <stars>⭐⭐</stars>
+        </rating>
+    </book>
+    <book id="2">
+        <autor>Alwyn Hamilton</autor>
+        <nume>Rebel of the sands</nume>
+        <an_publicare>2016</an_publicare>
+        <gen>Ficțiune</gen>
+        <rating value="5">
+            <stars>⭐⭐⭐⭐⭐</stars>
+        </rating>
+    </book>
+    <book id="3">
+        <autor>Leigh Bardugo</autor>
+        <nume>Six of Crows </nume>
+        <an_publicare>2015 </an_publicare>
+        <gen>Ficțiune</gen>
+        <rating value="5">
+            <stars>⭐⭐⭐⭐⭐</stars>
+        </rating>
+    </book>
+    <book id="4">
+        <autor>Antoine de Saint-Exupery</autor>
+        <nume>The Little Prince  </nume>
+        <an_publicare>1943 </an_publicare>
+        <gen>Fabulă</gen>
+        <rating value="2">
+            <stars>⭐⭐</stars>
+        </rating>
+    </book>
+    <book id="5">
+        <autor>J.K. Rowling</autor>
+        <nume>Harry Potter and the Sorcerer's Stone  </nume>
+        <an_publicare>1997 </an_publicare>
+        <gen>Ficțiune</gen>
+        <rating value="3">
+            <stars>⭐⭐⭐</stars>
+        </rating>
+    </book>
+      <book id="6">
+        <autor>Erin Morgenstern</autor>
+        <nume>The night circus  </nume>
+        <an_publicare>2011 </an_publicare>
+        <gen>Fantezie</gen>
+        <rating value="3">
+            <stars>⭐⭐⭐</stars>
+        </rating>
+    </book>
+     <book id="7">
+        <autor>Cassandra Clare</autor>
+        <nume>Clockwork Angel</nume>
+        <an_publicare>2010 </an_publicare>
+        <gen>Ficțiune</gen>
+        <rating value="3">
+            <stars>⭐⭐⭐</stars>
+        </rating>
+    </book>
+     <book id="8">
+        <autor>Alexandre Dumas</autor>
+        <nume>The three musketeers</nume>
+        <an_publicare>1844 </an_publicare>
+        <gen>Aventură</gen>
+        <rating value="4">
+            <stars>⭐⭐⭐⭐</stars>
+        </rating>
+    </book>
+     <book id="9">
+        <autor>Lynne O'Donnell</autor>
+        <nume>High tea in Mosul</nume>
+        <an_publicare>2007</an_publicare>
+        <gen>Biografie</gen>
+        <rating value="4">
+            <stars>⭐⭐⭐⭐</stars>
+        </rating>
+    </book>
+     <book id="10">
+        <autor>Jostein Gaarder</autor>
+        <nume>The orange girl</nume>
+        <an_publicare>2003</an_publicare>
+        <gen>Ficțiune</gen>
+        <rating value="3">
+            <stars>⭐⭐⭐</stars>
+        </rating>
+    </book>
+    <book id="11">
+        <autor>Fyodor Dostoevsky</autor>
+        <nume>Crime and punishment</nume>
+        <an_publicare>1866</an_publicare>
+        <gen>Psihologie</gen>
+        <rating value="3">
+            <stars>⭐⭐⭐</stars>
+        </rating>
+    </book>
+    <book id="12">
+        <autor>Holly Black</autor>
+        <nume>The cruel prince</nume>
+        <an_publicare>2018</an_publicare>
+        <gen>Ficțiune</gen>
+        <rating value="4">
+            <stars>⭐⭐⭐⭐</stars>
+        </rating>
+    </book>
+    <book id="13">
+        <autor>James Clavell</autor>
+        <nume>Escape</nume>
+        <an_publicare>1995</an_publicare>
+        <gen>Ficțiune istorica</gen>
+        <rating value="5">
+            <stars>⭐⭐⭐⭐⭐</stars>
+        </rating>
+    </book>
+    <book id="14">
+        <autor>Emily Bronte</autor>
+        <nume>Wuthering Heights</nume>
+        <an_publicare>1847</an_publicare>
+        <gen>Tragedie</gen>
+       <rating value="3">
+            <stars>⭐⭐⭐</stars>
+        </rating>
+    </book>
+     <book id="15">
+        <autor>Tea Obreht</autor>
+        <nume>The tiger's wife</nume>
+        <an_publicare>2011</an_publicare>
+        <gen>Ficțiune</gen>
+        <rating value="3">
+            <stars>⭐⭐⭐</stars>
+        </rating>
+    </book>
+     <book id="16">
+        <autor>Tomi Adeyemi</autor>
+        <nume>Children of blood and bone</nume>
+        <an_publicare>2018</an_publicare>
+        <gen>Ficțiune</gen>
+        <rating value="3">
+            <stars>⭐⭐⭐</stars>
+        </rating>
+    </book>
+    <book id="17">
+        <autor>John Boyne</autor>
+        <nume>The boy in the stripped pijamas</nume>
+        <an_publicare>2006</an_publicare>
+        <gen>Război</gen>
+        <rating value="2">
+            <stars>⭐⭐</stars>
+        </rating>
+    </book>
+    <book id="18">
+        <autor>Elizabeth Lim</autor>
+        <nume>Spin the Dawn</nume>
+        <an_publicare>2019</an_publicare>
+        <gen>Ficțiune</gen>
+        <rating value="3">
+            <stars>⭐⭐⭐</stars>
+        </rating>
+    </book>
+    <book id="19">
+        <autor>Tahereh Mafi</autor>
+        <nume>Shatter me</nume>
+        <an_publicare>2011</an_publicare>
+        <gen>Ficțiune</gen>
+        <rating value="3">
+            <stars>⭐⭐⭐</stars>
+        </rating>
+    </book>
+    <book id="20">
+        <autor>Nicholas Sparks</autor>
+        <nume>A walk to remember</nume>
+        <an_publicare>1999</an_publicare>
+        <gen>Dramă</gen>
+        <rating value="3">
+            <stars>⭐⭐⭐</stars>
+        </rating>
+    </book>
+</carti>

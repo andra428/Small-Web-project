@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <title>Învaț</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/stil.css">
+        <link rel="stylesheet" media="print" href="css/Print.css">
+        <script src="js/script.js"></script>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+
+    <body onload="apel()">
+
+    <br>
+<div class="invat"> 
+      <div class="column2">
+    <section><strong>Secțiune 1</strong> <br>
+    <br>
+ <p><strong>Data și timpul actual</strong> </p> <p onclick="get_Data()" id="k1">Data</p>
+    <br><br>
+   <p><strong> Link-ul paginii</strong></p>  <p onclick="get_Url()" id="k2">URL</p>
+    <br><br>
+    <p><strong>Locația dispozitivului</strong></p>  <p onclick="get_Location()" id="k3">Locație</p>
+    <br><br>
+   <p><strong> Numele Browser-ului</strong></p> <p  onclick=" get_Nume_Browser()" id="k4">Nume Browser</p>
+    <br><br>
+   <p><strong>Sistemul de operare</strong></p> <p onclick="get_SO()" id="k5">Sistem de operare</p><br><br>
+   <br><br>
+</section>
+</div>
+<div class="column2">
+   <section><strong>Secțiune 2</strong><br><br><br>
+   <label for="favcolor">Culoare border:</label>
+    <input type="color" id="favcolor" name="favcolor" value="#f0f000"> &emsp;
+    <label for="favvcolor">Culoare fill:</label>
+    <input type="color" id="favvcolor" name="favvcolor" value="#ff0000">
+    <br><br>
+    <canvas id="k6" width="300" height="250" style="border:2px solid #100f0f;">
+        Your browser does not support the HTML5 canvas tag.</canvas>
+    <br><br>
+    <button type="button" onclick="desen()">Submit</button><br>
+</section>
+</div>
+<br><br>
+<div class="column2">
+<section><strong>Secțiune 3</strong>
+  <br><br>
+  <label for="c">Poziția</label><br>
+  <input type="number" id="c" name="c"><br><br>
+  <label for="fcolor">Culoare</label>
+  <input type="color" id="fcolor" name="fcolor" value="#ffff00"><br><br>
+  <label for="nl">Linia</label> &emsp;
+  <input type="submit" id="nl" onclick="inserareLinie()">&emsp;&emsp;&emsp;
+  <label for="ncc">Coloana</label>
+  <input type="submit" id="ncc" onclick="inserareColoana()"> <br><br>
+  <table id="k7">
+    <tr>
+      <th>Carte</th>
+      <th >Autor</th>
+    </tr>
+    <tr >
+      <td> Six of Crows</td>
+      <td >Leigh Bardugo</td>
+    </tr>
+    <tr>
+      <td>Hunger Games</td>
+      <td>Suzanne Collins</td>
+    </tr>
+  </table>
+</section>
+</div>
+
+</div> 
+<br><br><br>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head >
+        <title>Cumpărături</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/stil.css">
+        <link rel="stylesheet" media="print" href="css/Print.css">
+        <script src="js/cumparaturi.js"></script>
+        <script src="js/worker.js"></script>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    </head>
+    <body><br><br>
+        <form> 
+            <label for="produs"><strong>Nume carte</strong></label><br>
+            <input type="text" id="produs" name="produs"><br>
+            <label for="cant"><strong>Cantitate</strong></label><br>
+            <input type="text" id="cant" name="cant"><br><br>
+            <button  type="button" id="btna" onclick="adaugaCos()">Adaugă</button>&emsp;
+            <button type="button" onclick="deleteItems()">Delete</button>
+          </form>
+         <br><br><br>
+         <div class="cumparaturi">
+          <table id="tabel-cumparaturi">
+            <tr>
+              <th>Numar</th>
+              <th>Produs</th>
+              <th>Cantitate</th>
+            </tr>
+          </table>
+        </div>
+          <br>
+          <h2 id="cump" ></h2><br>
+          <img src="img/gif2.gif" alt="gif" width="200" height="150">
+</body>
+</html>

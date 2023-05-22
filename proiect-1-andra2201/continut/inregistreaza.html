@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+    <head>
+        <title>Înregistrează</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/stil.css">
+        <link rel="stylesheet" media="print" href="css/Print.css">
+        <script src="js/script.js"></script>
+        <script src="js/carti.js"></script>
+        <script src="js/cumparaturi.js"></script>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+            <br>
+            <br>
+            <form>
+                <fieldset>
+                <legend>Informatii generale</legend><br>
+                <label for="nuser">Nume utilizator</label><br>
+                <input type="text" id="nuser" name="nc"><br>
+                <label for="na">Prenume utilizator</label><br>
+                <input type="text" id="na" name="na"><br>
+                <label for="p">Parolă</label><br>
+                <input type="password" id="p" name="p"><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="tel">Telefon</label><br>
+                <input type="tel" id="tel" name="tel"><br>
+                <br>
+                </fieldset>
+                <fieldset>
+                <legend>Informatii personale</legend><br>
+                <label for="gen">Gen</label>
+                <select name="gen" id="gen" >
+                    <option value="Feminin">Feminin</option>
+                    <option value="Masculin">Masculin</option>
+                    <option value="Masculin">Altceva</option>
+                </select>
+                <br>
+                <br>
+                <label for="mancare">Gen de carte preferat</label>
+                <input list="mancare-tipp" id="mancare" name="mancare-tip">
+                <datalist id="mancare-tipp">
+                    <option value="Acțiune">
+                    <option value="Comedie">
+                    <option value="Dramă">
+                    <option value="Ficțiune">
+                    <option value="Istorie">
+                    <option value="Psihologie">
+                    <option value="Realism">
+                    <option value="Social">
+                    <option value="Polițist">
+                </datalist>
+                <br><br>
+                <label for="col">Culoare</label>
+                <input type="color" id="col" name="col"><br><br>
+                <label for="date">Data nașterii</label>
+                <input type="date" id="date" name="date"><br><br>
+                <label for="time">Ora nașterii</label>
+                <input type="time" id="time" name="time"><br><br>
+                <label for="varsta">Vârsta</label>
+                <input type="range" id="varsta" name="varsta" min="10" max="100" onchange="varstaRange()"><br>
+                <p id="kk"><strong></strong></p><br>
+                <label for="site">Adresa paginii personale</label>
+                <input type="url" id="site" name="site"><br><br>
+                <label for="desc">Descriere</label> &emsp;
+                <textarea id="desc" name="desc" rows="4" cols="50">
+                    Descriere a utilizatorului în 2-3 cuvinte.
+                    </textarea>
+                <br><br>
+                <button  type="button" id="btn1" onclick="verificareExtinsa()">Înregistrează</button>
+                <h2 id="result"></h2>
+                <br><br><br>
+            </fieldset>
+            </form>
+            <br>
+            <br>
+    </body>
+</html>

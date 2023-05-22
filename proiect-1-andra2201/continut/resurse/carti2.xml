@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<carti2>
+    <book id="1">
+        <autor>Vladimir Nabokov</autor>
+        <nume>Lolita</nume>
+        <an_publicare>1955</an_publicare>
+         <gen>Ficțiune</gen>
+        <nr_pagini>231/368</nr_pagini>
+    </book>
+    <book id="2">
+        <autor>David Smiedt</autor>
+        <nume>Are we there yet?</nume>
+        <an_publicare>2006</an_publicare>
+         <gen>Istorie</gen>
+        <nr_pagini>98/300</nr_pagini>
+    </book>
+    <book id="3">
+        <autor>Fyodor Dostoevsky</autor>
+        <nume>The brothers Karamazov</nume>
+        <an_publicare>1878</an_publicare>
+         <gen>Drama</gen>
+       <nr_pagini>102/796</nr_pagini>
+    </book>
+    <book id="4">
+        <autor>James Clavell</autor>
+        <nume>Whirlwind</nume>
+        <an_publicare>1986</an_publicare>
+         <gen>Actiune</gen>
+       <nr_pagini>178/848</nr_pagini>
+    </book>
+</carti2>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<carti3>
+    <book id="1">
+        <autor>Tomi Adeyemi</autor>
+        <nume>Children of Anguish and Anarchy</nume>
+        <an_publicare>2023</an_publicare>
+        <gen>Fantezie</gen>
+    </book>
+    <book id="2">
+        <autor>Elizabeth Lim</autor>
+        <nume>Six Crimson Cranes</nume>
+        <an_publicare>2021</an_publicare>
+         <gen>Fantezie</gen>
+    </book>
+    <book id="3">
+        <autor>Hafsah Faizal</autor>
+        <nume>We free the stars</nume>
+        <an_publicare>2012</an_publicare>
+         <gen>Fantezie</gen>
+         
+    </book>
+    <book id="4">
+        <autor>Charles Dickens</autor>
+        <nume>A tale of two cities</nume>
+        <an_publicare>1859</an_publicare>
+         <gen>Ficțiune</gen>
+         
+    </book>
+    <book id="5">
+        <autor>Oscar Wild</autor>
+        <nume>The picture of Dorian Gray</nume>
+        <an_publicare>1945</an_publicare>
+        <gen>Ficțiune</gen>
+        
+    </book>
+</carti3>
