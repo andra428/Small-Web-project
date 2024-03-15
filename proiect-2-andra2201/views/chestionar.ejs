@@ -1,0 +1,27 @@
+<h2>Chestionar</h2>
+<form method="POST" action="/rezultat-chestionar">
+
+	<% for (var i=0; i<intrebari.length; i++) { %>
+
+		<div class="intrebare">
+
+			<h3><%= intrebari[i].intrebare %></h3>
+
+			<ol class="raspunsuri">
+
+				<% for (var j=0; j<intrebari[i].variante.length; j++) { %>
+					<li>
+						<label>
+							<input type="radio" name="<%= i %>" value="<%= j %>">
+							<%= intrebari[i].variante[j] %>
+						</label>
+					</li>
+				<% } %>
+
+			</ol>
+
+		</div>
+
+	<% } %>
+	<button type="submit">Trimite</button>
+</form>

@@ -1,0 +1,15 @@
+<h2>Admin</h2>
+
+<h4>Bine ai venit <%= name %></h4>
+<br><br>
+<input type="button" value="Creare BD" onclick="location.href='/creare-bd'">
+ &emsp;&emsp;
+
+ <br><br>
+<form method="POST" action="/inserare-bd">
+ <label for="produss">Nume produs</label><br>
+ <input type="text" id="produss" name="produss"><br>
+ <label for="pretProdus">Pret</label><br>
+ <input type="number" id="pretProdus" name="pretProdus"><br><br><br>
+ <button type="submit">Adaugare in tabel</button>
+</form>

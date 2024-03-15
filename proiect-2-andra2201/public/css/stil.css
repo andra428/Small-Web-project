@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+  background-image: url("../img/bg.jpg");
+    text-align: center;
+  }
+  ul{
+    font-family: 'Times New Roman';
+    color:#0c0c0c;
+    margin: 10px;
+    list-style-type:circle;
+    padding-left: 10px;
+    list-style-position: inside;
+  }
+  ol{
+    font-family: 'Times New Roman';
+    color:#0f0f0f;
+    margin: 10px;
+    list-style-type:decimal;
+    list-style-position: inside;
+    padding-left: 10px;
+  }
+  button{
+    background-color: #beb4a5; 
+    border: 3px solid #beb4a5;
+    color:#0f0e0e;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  button:hover{
+    color:#ffffff;
+    background-color: #57433a;
+  }
+  p {
+    font-family: 'Times New Roman';
+    color:#0e0d0d;
+    padding-top: 8px;
+    padding-bottom:  4px;
+    padding-left: 20px;
+  }
+  h1{
+    font-family: 'Times New Roman';
+    font-size:30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#0f0f0f;
+  }
+  h2{
+    font-family: 'Times New Roman';
+    font-size:25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#090909;
+  }
+  h3{
+    font-family: 'Times New Roman';
+    font-size:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#131313;
+    display: inline;
+  }
+  h4{
+    font-family: 'Times New Roman';
+    font-size:15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#111111;
+  }
+  h5{
+    font-family: 'Times New Roman';
+    font-size:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#0f0f0f;
+  }
+  footer{
+    text-align: center;
+    font-family: 'Times New Roman';
+    width: 100%;
+    color:#171616;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+input[type=button]{
+  background-color: #beb4a5; 
+    border: 3px solid #beb4a5;
+    color:#090909;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+}
+input[type=button]:hover{
+  color:#ffffff;
+    background-color: #57433a; 
+}
+table,tr,td,th {
+  background-color: #beb4a5;
+  border: 3px solid;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #beb4a5;
+  color:#000000;
+  border-spacing: 0 20px;
+  
+}

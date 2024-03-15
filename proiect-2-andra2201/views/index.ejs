@@ -1,0 +1,29 @@
+<input type="button" value="Autentificare" onclick="location.href='/autentificare'">
+<br><br>
+<h3>Bine ai venit, <%= name %>!</h3>
+<br><br>
+    <input type="button" value="Afisare produse" onclick="location.href='/afisare'"> &emsp;&emsp;
+    <input type="button" value="Vizualizare cos" onclick="location.href='/vizualizare-cos'">
+    <br><br>
+    <% if (data && data.length) { %>
+        <table>
+          <tr>
+          <th>Produs</th>
+          <th>Pret</th>
+          <th>Buton</th>
+        </tr>
+        <% for (var i = 0; i < data.length; i++) { %>
+          <tr>
+          <td> <%= data[i].Nume %></td> 
+          <td><%= data[i].Pret %> lei</td>
+          <% if(showName==true) { %>
+            <td>
+          <input type="button" value="Adauga in cos" onclick="location.href='/adaugare-cos?id=<%= data[i].ID %>'">
+            </td>
+          </tr>
+          <% } %>
+        <% } %>
+      </table>
+      <% } else { %>
+        <h4>No data available</h4>
+      <% } %>

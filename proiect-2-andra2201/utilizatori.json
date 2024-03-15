@@ -1,0 +1,5 @@
+[
+    {"prenume": "andra","nume":"lupu", "parola": "maria2","data_nastere":"08/22/2001", "rol":"ADMIN"},
+    { "prenume": "geo","nume":"cojocaru", "parola": "geo2","data_nastere":"01/01/2002", "rol":"USER"}
+
+]

@@ -1,0 +1,12 @@
+[
+    {
+       "intrebare": "Cu ce aparat foto poți face poze landscape?",
+        "variante": ["Aparat foto digital NBD", "Aparat foto compact NBD", "Aparat foto digital Nikon", "Aparat foto DSLR Canon EOS"],
+        "corect": 1
+    },
+    {
+        "intrebare": "Cel mai bun aparat foto pentru începători?",
+       "variante": ["Aparatele foto DSLR Entry", "Aparatele foto mirrorless entry level", "Aparatele foto medium", "Aparatele foto pro"],
+        "corect": 0
+    }
+]

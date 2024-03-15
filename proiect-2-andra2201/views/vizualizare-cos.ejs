@@ -1,0 +1,23 @@
+<h2>Vizualizare cos</h2>
+<br>
+
+<% if(produse && produse.length) { %>
+  <table>
+  <tr>
+    <th>Cantitate</th>
+    <th>Produs</th>
+    <th>Pret</th>
+  </tr>
+  
+<% for (var i = 0; i < produse.length; i++) { %>
+  <tr>
+    <td> <%= produse[i].cantitate %> </td>
+    <td> <%= produse[i].Nume %> </td>
+    <td> <%= produse[i].sumaPret %> lei </td>
+    <% } %>
+  </tr>
+  </table>
+    <% } else { %>
+        <h4>No data available</h4>
+      <% } %>
+

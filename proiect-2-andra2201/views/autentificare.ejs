@@ -1,0 +1,15 @@
+<h2>Autentificare</h2>
+<% if (showHiddenText) { %>
+  <p><%= stat %></p>
+<% } %>
+<form method="POST" action="/verificare-autentificare">
+    <label for="fname">Prenume</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Nume</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="pas">Parola</label><br>
+    <input type="password" id="pas" name="pas"><br><br>
+    <label for="date">Date nastere</label><br>
+    <input type="date" id="date" name="date"><br><br>
+    <button type="submit">Autentificare</button>
+  </form> 
